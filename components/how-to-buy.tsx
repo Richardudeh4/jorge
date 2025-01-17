@@ -9,7 +9,7 @@ const buyCard = [
     },
     {
         number: "2",
-        title: "Add Solana",
+        title: "Add Base Eth",
         desc: "Purchase base eth or send base eth to your wallet through any exchange of your choice.",
     },
     {
