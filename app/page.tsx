@@ -7,7 +7,6 @@ import Navbar from "@/components/navbar";
 import Roadmap from "@/components/roadmap";
 import StayInTouch from "@/components/stay-in-touch";
 import Tokenomics from "@/components/tokenomics";
-import Image from "next/image";
 
 export default function Home() {
   return (

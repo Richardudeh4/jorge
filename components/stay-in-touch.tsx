@@ -18,7 +18,7 @@ const DesktopSocialLink = [
 
 ]
 const StayInTouch = () => {
-    const [text, setText] = useState('7BNMb8k689NK9i7Sn8n9BwuqmxHMMWHJ57bBJYEow87s');
+    const [text, setText] = useState<string>('7BNMb8k689NK9i7Sn8n9BwuqmxHMMWHJ57bBJYEow87s');
     const [copySuccess, setCopySuccess] = useState(false);
 
     const handleCopy = () => {
