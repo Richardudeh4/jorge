@@ -3,6 +3,7 @@ import { Copy, CopyCheck } from 'lucide-react'
 
 import React, { useState } from 'react'
 import { Button } from './ui/button'
+import Image from 'next/image';
 
 const Hero = () => {
   const [text] = useState('7BNMb8k689NK9i7Sn8n9BwuqmxHMMWHJ57bBJYEow87s');
@@ -24,7 +25,7 @@ const Hero = () => {
     className='h-screen w-full bg-cover bg-center bg-no-repeat'
     style={{ backgroundImage: "url('/https://jorgeonsol.io/assets/mobile%20hero-BMxZvkoq.png')" }}
     >
-    <div className='flex py-10  h-full'>
+    <div className='flex py-10 justify-between flex-row h-full'>
         <div className='flex flex-col gap-y-6 '>
             <div className='flex flex-row space-x-5 items-center'>
               {
@@ -50,6 +51,9 @@ const Hero = () => {
                 <Button>Buy now</Button>
                 <Button variant="secondary"> Dex</Button>
             </div>
+        </div>
+        <div className='-mt-36 ml-7'>
+          <Image src="https://jorgeonsol.io/assets/mobile%20hero-BMxZvkoq.png" width={2000} height={2000} alt=""/>
         </div>
     </div>
     </div>
