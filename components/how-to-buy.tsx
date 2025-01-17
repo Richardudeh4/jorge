@@ -15,7 +15,7 @@ const buyCard = [
     },
     {
         number:"3",
-        title: "Swap SOL for jorge",
+        title: "Swap Base Eth for jorge",
         desc: "Open Uniswap and buy using the $JORGE contract address",
     },
     {

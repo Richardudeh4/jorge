@@ -2,6 +2,8 @@
 import React, { useState } from 'react'
 import twitter from "@/public/asset/twitter.svg";
 import telegram from "@/public/asset/telegram.svg";
+import dexscreener from "@/public/asset/dex-screener-seeklogo.png";
+import dextool from "@/public/asset/dextools.svg";
 import Link from 'next/link';
 import Image from 'next/image';
 import { Copy, CopyCheck } from 'lucide-react';
@@ -15,7 +17,14 @@ const DesktopSocialLink = [
         href:"https://t.me/JorgeOnBase",
         icon: telegram
     },
-
+    { 
+        href: "",
+        icon: dexscreener
+    },
+    { 
+        href: "",
+        icon: dextool,
+    },
 ]
 const StayInTouch = () => {
     const [text] = useState<string>('7BNMb8k689NK9i7Sn8n9BwuqmxHMMWHJ57bBJYEow87s');
@@ -62,7 +71,7 @@ const StayInTouch = () => {
                 <h1 className='font-extrabold text-[65px] text-white'>TOKEN CONTRACT ADDRESS</h1>
 
                 <div className='px-8 py-6 rounded-xl bg-red-700 flex items-center flex-row space-x-5'>
-                        <p className='text-2xl font-bold text-white'>7BNMb8k689NK9i7Sn8n9BwuqmxHMMWHJ57bBJYEow87s</p>
+                        {/* <p className='text-2xl font-bold text-white'>7BNMb8k689NK9i7Sn8n9BwuqmxHMMWHJ57bBJYEow87s</p> */}
                         {
                             copySuccess ?
                              <>
