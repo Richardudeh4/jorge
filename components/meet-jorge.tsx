@@ -28,10 +28,10 @@ const MeetJorge = () => {
             </div>
 
             <div className="flex flex-col lg:w-2/3 lg:ml-12 mt-6 lg:mt-0">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold font-serif text-white">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold font-serif text-gray-700">
                 Meet Jorge
               </h1>
-              <p className="text-xl sm:text-3xl lg:text-2xl mt-5 text-white leading-relaxed">
+              <p className="text-xl sm:text-3xl lg:text-2xl mt-5 text-gray-700 leading-relaxed">
                 Jorge Wagshington is here to bring fun, freedom, <br/> 
                 and financial opportunities to the masses. Ready <br/> 
                 to join the most patriotic and playful crypto community? <br/> 
