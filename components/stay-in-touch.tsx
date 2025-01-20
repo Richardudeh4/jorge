@@ -87,15 +87,16 @@ const StayInTouch = () => {
          <h1 className='font-extrabold text-3xl sm:text-4xl md:text-[45px] text-white mt-8'>
           TOKEN CONTRACT ADDRESS
         </h1>
-        <div className='px-8 py-6 rounded-xl bg-red-700 flex items-center flex-row space-x-5 mt-6'>
-          <p className='text-xl '>{text}</p>
+        <div className='px-8 py-6 rounded-xl bg-red-700 flex sm:flex-row items-center flex-col gap-3 sm:space-x-5 mt-6'>
+          <p className='text-xl sm:text-2xl px-2 text-white truncate'>Copy CA</p>
+          <div>
           {
             copySuccess ?
               <CopyCheck size={38} color="white" />
               :
               <Copy size={38} onClick={handleCopy} color="white" />
           }
-       
+          </div>
         </div>
       </div>
     </div>
