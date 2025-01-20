@@ -6,20 +6,20 @@ import { Button } from './ui/button'
 import Image from 'next/image';
 
 const Hero = () => {
-  const [text] = useState('7BNMb8k689NK9i7Sn8n9BwuqmxHMMWHJ57bBJYEow87s');
-  const [copySuccess, setCopySuccess] = useState(false);
+  // const [text] = useState('7BNMb8k689NK9i7Sn8n9BwuqmxHMMWHJ57bBJYEow87s');
+  // const [copySuccess, setCopySuccess] = useState(false);
 
-  const handleCopy = () => {
-      navigator.clipboard.writeText(text)
-        .then(() => {
-          setCopySuccess(true); 
-          setTimeout(() => setCopySuccess(false), 2000); 
-        })
-        .catch(err => {
-          console.error('Failed to copy text: ', err);
-          setCopySuccess(false);
-        });
-    };
+  // const handleCopy = () => {
+  //     navigator.clipboard.writeText(text)
+  //       .then(() => {
+  //         setCopySuccess(true); 
+  //         setTimeout(() => setCopySuccess(false), 2000); 
+  //       })
+  //       .catch(err => {
+  //         console.error('Failed to copy text: ', err);
+  //         setCopySuccess(false);
+  //       });
+  //   };
 
   return (
     <div 
