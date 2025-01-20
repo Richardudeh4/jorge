@@ -18,7 +18,7 @@ const DesktopSocialLink = [
     icon: telegram
   },
   {
-    href: "",
+    href: "https://dexscreener.com/base/0xf55632dB629EcF1DeA65046ed790c68744b22028",
     icon: dexscreener
   },
   {
@@ -28,7 +28,7 @@ const DesktopSocialLink = [
 ]
 
 const StayInTouch = () => {
-  const [text] = useState<string>('7BNMb8k689NK9i7Sn8n9BwuqmxHMMWHJ57bBJYEow87s');
+  const [text] = useState<string>('0xf55632dB629EcF1DeA65046ed790c68744b22028');
   const [copySuccess, setCopySuccess] = useState(false);
 
   const handleCopy = () => {
@@ -83,18 +83,19 @@ const StayInTouch = () => {
           </div>
         </div>
 
-        {/* Contract Address Section */}
-        <h1 className='font-extrabold text-3xl sm:text-4xl md:text-[65px] text-white mt-8'>
+       
+         <h1 className='font-extrabold text-3xl sm:text-4xl md:text-[45px] text-white mt-8'>
           TOKEN CONTRACT ADDRESS
         </h1>
         <div className='px-8 py-6 rounded-xl bg-red-700 flex items-center flex-row space-x-5 mt-6'>
+          <p className='text-xl '>{text}</p>
           {
             copySuccess ?
               <CopyCheck size={38} color="white" />
               :
               <Copy size={38} onClick={handleCopy} color="white" />
           }
-          {/* <p className='text-2xl font-bold text-white'>{text}</p> */}
+       
         </div>
       </div>
     </div>

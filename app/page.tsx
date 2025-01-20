@@ -14,8 +14,8 @@ export default function Home() {
     <div className="w-full h-[100%] overflow-hidden  bg-slate-100">
     <div className="max-w-7xl flex flex-col mx-auto">
       <Navbar/>
-      <Hero/>
     </div>
+    <Hero/>
     <CarouselMaquee/>
     <MeetJorge/>
     <div className="max-w-7xl flex flex-col mx-auto">

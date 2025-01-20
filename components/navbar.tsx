@@ -19,7 +19,7 @@ const DesktopSocialLink = [
         icon: telegram
     },
     { 
-        href: "",
+        href: "https://dexscreener.com/base/0xf55632dB629EcF1DeA65046ed790c68744b22028",
         icon: dexscreener
     },
     { 

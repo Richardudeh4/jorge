@@ -23,20 +23,19 @@ const Hero = () => {
 
   return (
     <div 
-      className='h-screen w-full bg-cover bg-center bg-no-repeat' 
-      style={{ backgroundImage: "url('/https://jorgeonsol.io/assets/mobile%20hero-BMxZvkoq.png')" }}
+      className='h-screen w-full bg-cover bg-center bg-no-repeat bg-[url("../public/flag.jpg")]' 
     >
       <div className='flex py-10 justify-between flex-col lg:flex-row h-full px-6'>
         <div className='flex flex-col gap-y-6 lg:w-1/2'>
           {/* Copy Button */}
-          <div className='flex flex-row space-x-5 items-center'>
+          {/* <div className='flex flex-row space-x-5 items-center'>
             {copySuccess ? 
               <CopyCheck className='text-2xl text-red-700' />
               :
               <Copy onClick={handleCopy} className='text-2xl text-red-700 cursor-pointer' />
             }
             <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold text-red-700'>COPY CA</h1>
-          </div>
+          </div> */}
 
           {/* Main Heading */}
           <h1 className='font-extrabold text-red-700 text-5xl sm:text-6xl md:text-7xl lg:text-7xl tracking-wide'>

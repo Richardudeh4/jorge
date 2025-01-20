@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
+import { Button } from './ui/button'
+import Link from 'next/link'
 
 const MeetJorge = () => {
   return (
@@ -23,12 +25,12 @@ const MeetJorge = () => {
                 width={700} 
                 height={700} 
                 alt="Cap" 
-                className="w-full h-auto object-contain mx-auto"
+                className="w-full h-auto object-contain mx-auto rounded-2xl"
               />
             </div>
 
             <div className="flex flex-col lg:w-2/3 lg:ml-12 mt-6 lg:mt-0">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold font-serif text-gray-700">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold   text-gray-700">
                 Meet Jorge
               </h1>
               <p className="text-xl sm:text-3xl lg:text-2xl mt-5 text-gray-700 leading-relaxed">
@@ -36,7 +38,18 @@ const MeetJorge = () => {
                 and financial opportunities to the masses. Ready <br/> 
                 to join the most patriotic and playful crypto community? <br/> 
                 Hop aboard, and let’s make history together! <br/> 
-                [Get Started] <br/> [Join the Community]
+                <div className='flex mt-4 flex-row space-x-6'>
+                  <Button asChild>
+                    <Link href="https://x.com/jorgeonbase?s=21" target="_blank">
+                    Get started
+                    </Link>
+                    </Button>
+                  <Button asChild>
+                    <Link href="https://t.me/JorgeOnBas" target="_blank">
+                    Join the community
+                    </Link>
+                  </Button>
+                </div>
               </p>
               <div className="mt-6 relative">
                 {/* House Image */}
@@ -45,7 +58,7 @@ const MeetJorge = () => {
                   width={600} 
                   height={600} 
                   alt="House" 
-                  className="w-full h-auto object-contain mx-auto -mb-32 lg:mb-0"
+                  className="w-full h-auto object-contain mx-auto -mb-32 lg:mb-0 rounded-2xl"
                 />
               </div>
             </div>
