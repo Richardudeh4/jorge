@@ -19,9 +19,9 @@ export default function Home() {
     <CarouselMaquee/>
     <MeetJorge/>
     <div className="max-w-7xl flex flex-col mx-auto">
-    <Tokenomics/>
     <HowToBuy/>
     </div>
+    <Tokenomics/>
       <Roadmap />
       <Memes/>
       <StayInTouch/>
